@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: rgb(231, 150, 44);
+    background-color: rgb(50, 222, 245);
+    border: 2px;
+    border-style: double;
+    border-color: brown;
+}
+
+h3{
+    color: chocolate;
+}
+
+h2{
+    color: chocolate;
+}
+.header{
+    background-color: rgb(219, 219, 89);
+    border: 3px rgb(8, 8, 8) solid;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+table,th,td{
+    border: 2px rgb(204, 176, 17) solid
+}
