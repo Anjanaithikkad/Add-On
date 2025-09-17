@@ -36,6 +36,9 @@ const Navbar = () => {
                   <Link to="/text">
                       <Button variant='contained'>Texts</Button>
                   </Link> &nbsp;
+                  <Link to="/card">
+                      <Button variant='contained'>Cards</Button>
+                  </Link> &nbsp;
               </Toolbar>
           </AppBar>
           <br /><br /> <br />

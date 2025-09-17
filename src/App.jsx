@@ -10,6 +10,7 @@ import Gettable from './components/Gettable'
 import StateBasics from './components/StateBasics'
 import Counter from './components/Counter'
 import Text3 from './components/Text3'
+import Product from './components/Product'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
         <Route path='/state' element={<StateBasics />} />
         <Route path='/count' element={<Counter />} />
         <Route path='/text' element={<Text3 />} />
+        <Route path='/card' element={<Product/>} />
       </Routes>
       
     </>
